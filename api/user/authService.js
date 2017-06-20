@@ -75,6 +75,7 @@ const signup = (req, res, next) => {
           return sendErrorsFromDB(res, err)
         } else {
           login(req, res, next)
+          next()
         }
       })
     }
