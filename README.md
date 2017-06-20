@@ -1,5 +1,5 @@
 # PagamentosAPP
-
+[![Build Status](https://travis-ci.org/ThiagoLuizNunes/Pagamentos-APP.svg?branch=master)](https://travis-ci.org/ThiagoLuizNunes/Pagamentos-APP)
 Toolkit: MongoDB | Express.js| Angular.js | Node.js
 
 ### Requirements ###
