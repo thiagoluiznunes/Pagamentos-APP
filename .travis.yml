@@ -1,11 +1,11 @@
--language: node_js
- -
- -node_js:
- -  - '6.9.5'
- -
- -services:
- -  - mongodb
- -
- -before_script:
- -  - npm install
- -  - npm run dev
+language: node_js
+
+node_js:
+  - '6.9.5'
+
+services:
+  - mongodb
+
+before_script:
+  - npm install
+  - npm run dev
