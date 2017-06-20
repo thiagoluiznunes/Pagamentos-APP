@@ -31,6 +31,7 @@ const login = (req, res, next) => {
       return res.status(400).send({errors: ['Usuário/Senha inválidos']})
     }
   })
+  next()
 }
 /*Validação token*/
 const validateToken = (req, res, next) => {
@@ -75,7 +76,6 @@ const signup = (req, res, next) => {
           return sendErrorsFromDB(res, err)
         } else {
           login(req, res, next)
-          next()
         }
       })
     }
