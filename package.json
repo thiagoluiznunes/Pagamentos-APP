@@ -5,7 +5,7 @@
   "main": "loader.js",
   "scripts": {
     "start": "node loader.js",
-    "dev" : "nodemon loader.s",
+    "dev" : "nodemon loader.js",
     "production": "pm2 start loader.js --name backend"
   },
   "author": "Thiago Luiz",
